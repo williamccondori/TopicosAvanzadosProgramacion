@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2e86e001-ec17-4f9e-b0e3-342179afee68</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>stacks_queues\test_stack.py</StartupFile>
+    <StartupFile>factorial\test_factorial.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,14 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="stacks_queues\stack.py">
+    <Compile Include="factorial\test_factorial.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="stacks_queues\stack_factorial.py" />
     <Compile Include="stacks_queues\test_stack.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="factorial\" />
     <Folder Include="stacks_queues\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
