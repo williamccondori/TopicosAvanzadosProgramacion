@@ -19,7 +19,7 @@ class TestFactorial(unittest.TestCase):
     """
     def test_obtener_06(self):
         """
-        Comprueba el factorial de un nùmero dado.
+        Comprueba el factorial de un número dado.
         Ejemplo
         -------
         Factorial de 6 = 720
@@ -30,7 +30,7 @@ class TestFactorial(unittest.TestCase):
         self.assertEqual(resultado, 720) # Se compara la posible respuesta
     def test_obtener_10(self):
         """
-        Comprueba el factorial de un nùmero dado.
+        Comprueba el factorial de un número dado.
         Ejemplo
         -------
         Factorial de 10 = 3628800
@@ -41,7 +41,7 @@ class TestFactorial(unittest.TestCase):
         self.assertEqual(resultado, 3628800) # Se compara la posible respuesta
     def test_obtener_30(self):
         """
-        Comprueba el factorial de un nùmero dado.
+        Comprueba el factorial de un número dado.
         Ejemplo
         -------
         Factorial de 30 = 265252859812191058636308480000000
